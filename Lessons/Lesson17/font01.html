@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonts in CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Absolute medidas
+            cm, mm, in, px, pt, pc
+
+            Relatives Medidas
+            em, ex, rem, vw, vh, %
+            
+            16px geral = 1em
+            */
+            font-size: 1em;
+            font-weight: bold;
+            /* lighter, normal, bold, bolder */
+            font-style: italic;
+        }
+        
+        h1 {
+            /* font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 3em;
+            font-style: italic; */
+        
+            /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+            */
+            font: italic bolder 3em 'Arial', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Arial', sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Working with Fonts</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error quia ullam quas sint doloremque officiis? Quae nisi laboriosam molestiae nostrum quidem, veniam porro esse labore, laborum eligendi rem est accusantium! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor atque, enim dicta beatae commodi, quas reprehenderit adipisci placeat quia vel omnis, temporibus delectus impedit esse aut minima quae. Quam, magnam?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut deserunt alias ab non corporis tempora ad qui sint perspiciatis explicabo soluta aperiam quam voluptate error esse aliquid iste, veritatis illo.</p>
+    <h2>Subtitle of the exercise</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, accusantium dolor, voluptatum reiciendis dolore nostrum nemo laudantium omnis rerum impedit soluta eum. Ipsum numquam rerum voluptatem expedita officiis, modi totam.</p>
+</body>
+</html>

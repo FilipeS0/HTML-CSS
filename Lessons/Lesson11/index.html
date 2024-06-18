@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medias in HTML5</title>
+</head>
+<body>
+    <h1>Dinamic Images</h1>
+    <p>Try to open this website at some different divices or simply zoom in and out the size of browser</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="Images/photo-p.png" type="">
+        <source media="(max-width: 1050px)" srcset="Images/photo-m.png" type="">
+        <img src="Images/photo-g.png" alt="Image flex">
+    </picture>
+
+    <h1>Playing audio</h1>
+    <p>Lets learn how to play audio</p>
+    <!--<audio src="media/The Rainy Road - Lish Grooves.mp3" controls autoplay></audio>
+    MP3 WAV OGG-->
+    <audio preload="metadata" autoplay controls loop>
+        <source src="media/guanacast-33.mp3" type="audio/mpeg">
+        <source src="media/guanacast-33.mp3" type="audio/ogg">
+        <source src="media/guanacast-33.mp3" type="audio/wav">
+        <p>Unfortunelly your browser can't play the audio <a href="media/guanacast-33.mp3">Download here.</a></p>
+    </audio>
+</body>
+</html>
