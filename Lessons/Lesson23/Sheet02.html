@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheets</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        thead, tfoot {
+            background-color: rgb(46, 45, 45);
+            color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(46, 45, 45);
+        }
+
+        tbody tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
+        .number {
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Use for Big Sheets</h1>
+    <!--
+        ANATOMY TO BIG SHEETS
+        
+        TABLE   
+            CAPTION
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+
+    <table>
+        <caption>Population of the federal units</caption>
+        <thead>
+            <tr>
+                <th scope="col">State</th>
+                <th scope="col">Population</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="number">44.411.238</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="number">20.538.718</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="number">16.054.524</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="number">14.141.626</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="number">11.444.380</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="number">10.882.965</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="number">9.058.931</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="number">8.794.957</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="number">8.121.025</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="number">7.610.361</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="number">7.056.495</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="number">6.775.805</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="number">3.974.687</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="number">3.941.613</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="number">16.054.524</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="number">16.054.524</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="number">16.054.524</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="number">16.054.524</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="number">16.054.524</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="row">Habitation Total</th>
+                <td class="number"><strong>00000000</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam maiores ratione ut rem nisi libero quo veniam consectetur, excepturi ipsa, ipsam atque? Exercitationem numquam totam magnam quis voluptatum impedit officia? Lorem ipsum dolor sit amet consectetur adipisicing elit. At aperiam veniam deserunt impedit temporibus illum odio praesentium error exercitationem, laborum omnis sunt vero id mollitia qui porro! Nesciunt, eos molestiae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sit culpa necessitatibus temporibus molestias porro in tempore sunt quasi quaerat commodi incidunt quae magnam aspernatur natus, non eum! Perspiciatis, labore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium corrupti saepe ex ad modi! Quo architecto adipisci quasi alias dolore! Sit eius praesentium, voluptates cumque doloremque quo quisquam at aspernatur! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit labore asperiores, consectetur similique velit et. Aliquam in numquam quae non maiores expedita ullam, sed eos consequuntur! Aliquid quo maiores dolores.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam maiores ratione ut rem nisi libero quo veniam consectetur, excepturi ipsa, ipsam atque? Exercitationem numquam totam magnam quis voluptatum impedit officia? Lorem ipsum dolor sit amet consectetur adipisicing elit. At aperiam veniam deserunt impedit temporibus illum odio praesentium error exercitationem, laborum omnis sunt vero id mollitia qui porro! Nesciunt, eos molestiae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sit culpa necessitatibus temporibus molestias porro in tempore sunt quasi quaerat commodi incidunt quae magnam aspernatur natus, non eum! Perspiciatis, labore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium corrupti saepe ex ad modi! Quo architecto adipisci quasi alias dolore! Sit eius praesentium, voluptates cumque doloremque quo quisquam at aspernatur! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit labore asperiores, consectetur similique velit et. Aliquam in numquam quae non maiores expedita ullam, sed eos consequuntur! Aliquid quo maiores dolores.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam maiores ratione ut rem nisi libero quo veniam consectetur, excepturi ipsa, ipsam atque? Exercitationem numquam totam magnam quis voluptatum impedit officia? Lorem ipsum dolor sit amet consectetur adipisicing elit. At aperiam veniam deserunt impedit temporibus illum odio praesentium error exercitationem, laborum omnis sunt vero id mollitia qui porro! Nesciunt, eos molestiae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sit culpa necessitatibus temporibus molestias porro in tempore sunt quasi quaerat commodi incidunt quae magnam aspernatur natus, non eum! Perspiciatis, labore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium corrupti saepe ex ad modi! Quo architecto adipisci quasi alias dolore! Sit eius praesentium, voluptates cumque doloremque quo quisquam at aspernatur! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit labore asperiores, consectetur similique velit et. Aliquam in numquam quae non maiores expedita ullam, sed eos consequuntur! Aliquid quo maiores dolores.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam maiores ratione ut rem nisi libero quo veniam consectetur, excepturi ipsa, ipsam atque? Exercitationem numquam totam magnam quis voluptatum impedit officia? Lorem ipsum dolor sit amet consectetur adipisicing elit. At aperiam veniam deserunt impedit temporibus illum odio praesentium error exercitationem, laborum omnis sunt vero id mollitia qui porro! Nesciunt, eos molestiae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sit culpa necessitatibus temporibus molestias porro in tempore sunt quasi quaerat commodi incidunt quae magnam aspernatur natus, non eum! Perspiciatis, labore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium corrupti saepe ex ad modi! Quo architecto adipisci quasi alias dolore! Sit eius praesentium, voluptates cumque doloremque quo quisquam at aspernatur! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit labore asperiores, consectetur similique velit et. Aliquam in numquam quae non maiores expedita ullam, sed eos consequuntur! Aliquid quo maiores dolores.</p>
+</body>
+</html>
